@@ -1,0 +1,28 @@
+{
+  "name": "api-z",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Hugo Vieira",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.2.0",
+    "mocha": "^8.0.1",
+    "mongoose": "^5.7.0",
+    "nodemailer": "^4.4.1",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-http": "^1.0.0"
+  }
+}
